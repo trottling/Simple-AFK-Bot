@@ -43,7 +43,7 @@ def Afk_bot():
             pyautogui.keyUp(mv_btn)
             break
 
-        pyautogui.move(random.randint(move_range[0], move_range[1]), random.randint(move_range[0], move_range[1]))#, duration=random.randint(time_range_ms[0], time_range_ms[1]) / 1000, tween=pyautogui.easeInOutQuad)
+        pyautogui.move(random.randint(move_range[0], move_range[1]), random.randint(move_range[0], move_range[1]), duration=random.randint(time_range_ms[0], time_range_ms[1]) / 1000, tween=pyautogui.easeInOutQuad)
 
         pyautogui.keyUp(cm_bnt)
         pyautogui.keyUp(mv_btn)
